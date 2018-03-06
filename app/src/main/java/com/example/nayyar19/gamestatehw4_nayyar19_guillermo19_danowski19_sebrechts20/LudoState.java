@@ -7,15 +7,22 @@ import android.widget.EditText;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.Random;
-
-
-
 /**
  * This contains the state for the LUDO game.
  *
  * @author Ravi Nayyar, Avery Guillermo, Luke Danoswki, Chris Sebrechts
  * @version March 2018
  */
+
+/**External Citation
+    Date: 5 March
+ Problem: Could understand how to imlement the gameFramework
+ Resource:
+    Used the code from TicTacTo, ig, and Counter to get a better understanding
+    of the code and its imlementation.
+ */
+
+
 public class LudoState{
     protected Random gen  = new Random();
     private int playerToMove;
