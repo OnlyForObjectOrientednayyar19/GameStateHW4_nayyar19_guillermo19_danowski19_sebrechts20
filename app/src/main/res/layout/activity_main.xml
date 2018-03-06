@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.widget.LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.nayyar19.gamestatehw4_nayyar19_guillermo19_danowski19_sebrechts20.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/EditTextBox"
+                android:inputType="textMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/RunTestButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Run Test"
+                android:textSize="50sp" />
+        </LinearLayout>
+    </android.widget.LinearLayout>
